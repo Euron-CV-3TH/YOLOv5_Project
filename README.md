@@ -36,9 +36,9 @@ python main.py --weights 'yolov5/weights/best.pt' --classes 0 1 2 3 --input_path
 
 `main.py`를 통해 다양한 객체를 탐지하여 자동으로 모자이크 된 영상을 얻을 수 있습니다.  모자이크 결과물은 `output/results.mp4`에 저장됩니다.
 
-- `--weight` yolov5의 가중치 파일
-- `--input_path` 모자이크하고자하는 영상의 Path
-- `--classes` 모자이크 대상 객체
+- `--weight`: yolov5의 가중치 파일
+- `--input_path`: 모자이크하고자하는 영상의 Path
+- `--classes`: 모자이크 대상 객체
 
 
 ### Classes
